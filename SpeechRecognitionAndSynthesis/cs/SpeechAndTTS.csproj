@@ -92,7 +92,7 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\SharedContent\cs\App.xaml.cs">
+    <Compile Include="..\..\SharedContent\cs\App.xaml.cs">
       <Link>App.xaml.cs</Link>
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -106,7 +106,7 @@
     <Compile Include="ContinuousRecognitionSRGSConstraintScenario.xaml.cs">
       <DependentUpon>ContinuousRecognitionSRGSConstraintScenario.xaml</DependentUpon>
     </Compile>
-    <Compile Include="..\..\..\SharedContent\cs\MainPage.xaml.cs">
+    <Compile Include="..\..\SharedContent\cs\MainPage.xaml.cs">
       <Link>MainPage.xaml.cs</Link>
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -119,7 +119,7 @@
     <Compile Include="ListConstraintScenario.xaml.cs">
       <DependentUpon>ListConstraintScenario.xaml</DependentUpon>
     </Compile>
-    <Compile Include="..\..\..\SharedContent\cs\AssemblyInfo.cs">
+    <Compile Include="..\..\SharedContent\cs\AssemblyInfo.cs">
       <Link>Properties\AssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="SampleConfiguration.cs" />
@@ -142,7 +142,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <ApplicationDefinition Include="..\..\..\SharedContent\xaml\App.xaml">
+    <ApplicationDefinition Include="..\..\SharedContent\xaml\App.xaml">
       <Link>App.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -159,7 +159,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="..\..\..\SharedContent\cs\MainPage.xaml">
+    <Page Include="..\..\SharedContent\cs\MainPage.xaml">
       <Link>MainPage.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -180,7 +180,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="..\..\..\SharedContent\xaml\Styles.xaml">
+    <Page Include="..\..\SharedContent\xaml\Styles.xaml">
       <Link>Styles\Styles.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -199,28 +199,28 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\..\SharedContent\cs\Default.rd.xml">
+    <Content Include="..\..\SharedContent\cs\Default.rd.xml">
       <Link>Properties\Default.rd.xml</Link>
     </Content>
-    <Content Include="..\..\..\SharedContent\media\microsoft-sdk.png">
+    <Content Include="..\..\SharedContent\media\microsoft-sdk.png">
       <Link>Assets\microsoft-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedContent\media\smalltile-sdk.png">
+    <Content Include="..\..\SharedContent\media\smalltile-sdk.png">
       <Link>Assets\smallTile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedContent\media\splash-sdk.png">
+    <Content Include="..\..\SharedContent\media\splash-sdk.png">
       <Link>Assets\splash-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedContent\media\squaretile-sdk.png">
+    <Content Include="..\..\SharedContent\media\squaretile-sdk.png">
       <Link>Assets\squareTile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedContent\media\storelogo-sdk.png">
+    <Content Include="..\..\SharedContent\media\storelogo-sdk.png">
       <Link>Assets\storeLogo-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedContent\media\tile-sdk.png">
+    <Content Include="..\..\SharedContent\media\tile-sdk.png">
       <Link>Assets\tile-sdk.png</Link>
     </Content>
-    <Content Include="..\..\..\SharedContent\media\windows-sdk.png">
+    <Content Include="..\..\SharedContent\media\windows-sdk.png">
       <Link>Assets\windows-sdk.png</Link>
     </Content>
     <Content Include="..\shared\SRGS\de-DE\SRGSColors.xml">
